@@ -107,6 +107,7 @@ export default function AssemblyEndgame() {
         if (isGameWon) {
             return (
                 <>
+                    <Confetti />
                     <h2>You win!</h2>
                     <p>Well done! 🎉</p>
                 </>
